@@ -1,0 +1,46 @@
+#logo{
+    font-family: 'Dancing Script', cursive;
+}
+.navbar{
+    overflow: hidden;
+}
+.navbar a {
+    float: left;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+}
+.navbar-right{
+    float: right;
+    display: inline-block;
+    right: 150px; 
+    width: 200px;
+    
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    
+    
+    
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;}
+  .navbar-right:hover .dropdown-content {display: block;}
+  .container{
+    background-image: url(cover.jpg);
+    display: flex;
+    height: 10px;
+  }
+  #image{
+    flex-grow: 1;
+}
+#para{width: 50%;}
+#fit{
+    width: 500px;
+    height: 700px;
+}
