@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Unna&display=swap');
 #logo{
     font-family: 'Dancing Script', cursive;
 }
@@ -32,15 +33,24 @@
     display: block;}
   .navbar-right:hover .dropdown-content {display: block;}
   .container{
-    background-image: url(cover.jpg);
+    
     display: flex;
-    height: 10px;
+    
   }
-  #image{
-    flex-grow: 1;
-}
-#para{width: 50%;}
+  
+
 #fit{
-    width: 500px;
-    height: 700px;
+    width: 400px;
+    height: 500px;
 }
+footer{display: inline-block;}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+p{font-family: 'Unna', serif;}
